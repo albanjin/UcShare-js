@@ -26,7 +26,7 @@ const ucShare = require('nz-uc-share').default
 ```
 #### webpack打包兼容配置
 > 在处理js的时候新增
-```json
+``` json
 {
     test: /\.js$/,
     loader: 'babel-loader',
