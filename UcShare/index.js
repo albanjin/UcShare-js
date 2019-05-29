@@ -14,7 +14,7 @@
  import {isIOS} from '../common/util'
 
  export function ucShare ( data = {}, WechatFriends = ''){
-     console.log('ucShare')
+    //  console.log('ucShare')
     if (isIOS) {
         if (ucbrowser.web_shareEX) 
             ucbrowser.web_shareEX(

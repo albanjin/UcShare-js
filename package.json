@@ -8,7 +8,7 @@
     "download": "node download.js",
     "build": "webpack"
   },
-  "keywords": [],
+  "keywords": ["const ucShare = require('nz-uc-share')"],
   "author": "albanjin",
   "license": "ISC",
   "dependencies": {
