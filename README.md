@@ -6,8 +6,7 @@ npm i nz-uc-share -S
 
 #### 使用
 ``` text 
-const ucShare = require('nz-uc-share') 
-
+const ucShare = require('nz-uc-share').default 
 ```
 
 #### 方法

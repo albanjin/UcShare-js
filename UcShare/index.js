@@ -11,7 +11,7 @@
  * @description uc浏览器分享功能
  */
 
- import {isIOS} from '../common/util'
+ import { isIOS ,isUCBrowser } from '../common/util'
 
  export function ucShare ( data = {}, WechatFriends = ''){
     //  console.log('ucShare')
