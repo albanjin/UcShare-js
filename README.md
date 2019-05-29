@@ -11,7 +11,7 @@ const ucShare = require('nz-uc-share')
 ```
 
 #### 方法
-> ``` script 
+``` script 
     var data = {
         title: "手机快活贷—零花钱",
         content: "最高30万秒审批 ,快速申请，专人对接",
@@ -20,5 +20,6 @@ const ucShare = require('nz-uc-share')
         target: '',
         imageUrl: "https://kira.ningzefintech.com/fastdfs/group1/M00/00/01/rBDLuluppQ2AWSmTAAVwToCgmVQ269.png"
     }
+    ucShare(data)
 ```
     
