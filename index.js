@@ -1,1 +1,2 @@
-import {ucShare} from './UcShare'
+
+module.exports=require('./lib')

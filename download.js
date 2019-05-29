@@ -7,4 +7,6 @@ async function upload(cmdStr) {
 }
 upload(` scp root@118.31.23.219:/home/tomcat/webapps/dist/test.html /Users/albanjin/Downloads/UcShare/`)
 
+
+
 //  scp root@118.31.23.219:/home/tomcat/webapps/dist/test.html /Users/albanjin/Downloads

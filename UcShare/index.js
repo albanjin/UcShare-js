@@ -13,7 +13,8 @@
 
  import {isIOS} from '../common/util'
 
- export function ucShare ( data = {}){
+ export function ucShare ( data = {}, WechatFriends = ''){
+     console.log('ucShare')
     if (isIOS) {
         if (ucbrowser.web_shareEX) 
             ucbrowser.web_shareEX(
@@ -28,5 +29,5 @@
          else 
             ucbrowser.web_share(this.title,this.content.this.sourceUrl,'kWeixin')
     } else 
-        ucweb.startRequest("shell.page_share", [data.title, data.content,data.sourceUrl,'WechatFriends', 'WechatTimeline', '', ''])
+        ucweb.startRequest("shell.page_share", [data.title, data.content,data.sourceUrl, 'WechatTimeline', WechatFriends, '',''])
 }
