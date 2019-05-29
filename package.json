@@ -1,6 +1,6 @@
 {
   "name": "nz-uc-share",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "uc浏览器拉起",
   "main": "index.js",
   "scripts": {
