@@ -20,5 +20,8 @@ const ucShare = require('nz-uc-share').default
         imageUrl: "https://kira.ningzefintech.com/fastdfs/group1/M00/00/01/rBDLuluppQ2AWSmTAAVwToCgmVQ269.png"
     }
     ucShare(data)
+    
+    分享给好友
+    ucShare(data,'WechatFriends')
 ```
     
