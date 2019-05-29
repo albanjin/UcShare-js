@@ -24,4 +24,13 @@ const ucShare = require('nz-uc-share').default
     分享给好友
     ucShare(data,'WechatFriends')
 ```
+#### webpack打包兼容配置
+> 在处理js的时候新增
+```json
+{
+    test: /\.js$/,
+    loader: 'babel-loader',
+    include: [resolve('src'), resolve('node_modules/nz-uc-share')]
+}     
+```
     
